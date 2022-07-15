@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbox {
+    width: 98%;
+    height: 30vh;
+    border: 5px solid black;
+    overflow: auto;
+    margin: 9px auto;
+}
+
+.mainbox .head h1 {
+    margin-bottom: 10px;
+}
+
+.head {
+    line-height: 1.4;
+}
+
+.letter {
+    background-color: gray;
+    position: sticky;
+    top: 0;
+}
