@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.post {
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.post .image {
+    width: 95%;
+    height: 300px;
+    background-image: url("https://merriam-webster.com/assets/mw/images/gallery/gal-home-edpick-lg/ttl-sherlock-holmes-words-sociopath-1702-b09846da577ced4a8b7c8497af399c5c@1x.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hashtag {
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    padding: 5px 20px;
+    font-weight: bold;
+    transition: .3s ease-in;
+}
+
+.hashtag:hover {
+    transform: scale(1.3);
+}
+
+.textpost {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.textpost .datepost {
+    font-size: 14px;
+    color: rgb(130, 128, 128);
+    margin: 15px 0;
+}
+
+.titlepost {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px 0;
+
+}
+
+.descpost {
+    font-size: 15px;
+    color: rgb(41, 41, 41)
+}
